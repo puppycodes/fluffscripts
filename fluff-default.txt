@@ -1,0 +1,9 @@
+function fluffwar()
+OFF(1234567)
+  while true do
+    local choice = math.random(#outlet)
+    outlet[choice].on()
+    delay(5)
+    outlet[choice].off()
+  end
+end
